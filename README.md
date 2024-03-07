@@ -1,2 +1,3 @@
 # sql-Challenge
 Challenge 9
+In general, for columns like birth_date, first_name, last_name, sex, and hire_date, it's common to enforce NOT NULL constraints because these fields are typically considered essential attributes of an employee record. It ensures that you always have valid and complete data for each employee. However, in the specific context of the task, where the requirement is to correctly use the NOT NULL condition on necessary columns, I limited the appliation of NOT NULL constraints primarily to primary keys and wherever columns are involved in foreign key relationships or composite keys. 
